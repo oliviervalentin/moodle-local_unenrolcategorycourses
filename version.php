@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Plugin to unenroll users from all courses in a category
+ * Plugin to unenroll users from all courses in a category.
  *
  * @package     local_unenrolcategorycourses
  * @copyright   2024 Olivier VALENTIN
