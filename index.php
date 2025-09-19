@@ -146,20 +146,7 @@ if (!$confirm && $data = $mform->get_data()) {
         ';
 
     echo html_writer::div($courselistemenu);
-//         $menu .= '
-//         <p>
-//         <a class="btn btn-link" data-bs-toggle="collapse" href="#coursListCollapse" role="button" aria-expanded="false" aria-controls="coursListCollapse">
-//             Voir la liste des cours yeah
-//         </a>
-//         </p>
-//         <div class="collapse" id="coursListCollapse">
-//   <div class="card card-body">
-//    AAAAAAAAA
-// </div>';
-//   echo html_writer::tag('p', $menu);
     }
-
-
 
     $confirmurl = new moodle_url('/local/unenrolcategorycourses/index.php', [
         'confirm' => 1,
