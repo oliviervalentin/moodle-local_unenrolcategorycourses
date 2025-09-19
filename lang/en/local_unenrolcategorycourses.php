@@ -27,3 +27,12 @@ $string['unenrolcategorycourses:manage'] = 'Manage unenrolments by category';
 $string['confirmtitle'] = 'Confirm unenrolment';
 $string['confirmquestion'] = 'Do you want to proceed with unenrolment?';
 $string['resulttitle'] = 'Unenrolment scheduled';
+
+$string['pendingtaskfound'] = 'A scheduled task found has been found';
+$string['pendingtasksfound'] = 'Several scheduled tasks found';
+$string['unknownrole'] = 'Unknown role - id';
+$string['countcoursesaffected'] = ' courses affected';
+$string['enrollmethod'] = 'Enrollment method';
+$string['notaskinformation'] = 'Another scheduled task has been found (no details available).';
+$string['taskscheduled'] = 'Unenrollment task has been scheduled. It will be executed by next cron.';
+$string['showcourseslistbutton'] = 'Display courses list';

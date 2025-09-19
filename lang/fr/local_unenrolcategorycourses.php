@@ -27,3 +27,12 @@ $string['unenrolcategorycourses:manage'] = 'Gérer les désinscriptions par cat�
 $string['confirmtitle'] = 'Confirmer la désinscription';
 $string['confirmquestion'] = 'Voulez-vous vraiment désinscrire ces utilisateurs ?';
 $string['resulttitle'] = 'Désinscription planifiée';
+
+$string['pendingtaskfound'] = 'Une tâche de désinscription est déjà planifiée';
+$string['pendingtasksfound'] = 'Plusieurs tâches de désinscription sont déjà planifiées';
+$string['unknownrole'] = 'Rôle inconnu - id';
+$string['countcoursesaffected'] = ' cours concernés';
+$string['enrollmethod'] = 'Méthode d\'inscription';
+$string['notaskinformation'] = 'Une tâche de désinscription est déjà planifiée (détails non disponibles).';
+$string['taskscheduled'] = 'La désinscription a été planifiée. Elle sera exécutée par le cron.';
+$string['showcourseslistbutton'] = 'Afficher la liste des cours';
