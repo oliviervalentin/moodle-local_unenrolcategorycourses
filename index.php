@@ -115,6 +115,7 @@ if (!$confirm && $data = $mform->get_data()) {
     $courses = $DB->get_records_select('course', "category $insql", $params);
 
     echo $OUTPUT->heading(get_string('confirmtitle', 'local_unenrolcategorycourses'));
+
     // Display task params.
     $params ='<ul>
         <li><b>'.get_string('category', 'core').' : </b>'.format_string($DB->get_field('course_categories','name',['id'=>$categoryid])).'</li>
