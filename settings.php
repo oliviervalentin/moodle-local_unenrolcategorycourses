@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Settings page
+ * Settings page.
  *
  * @package     local_unenrolcategorycourses
  * @copyright   2024 Olivier VALENTIN
