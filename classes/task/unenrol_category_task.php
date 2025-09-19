@@ -35,8 +35,8 @@ class unenrol_category_task extends \core\task\adhoc_task {
         $roleid     = $data->roleid;
         $method     = $data->method;
 
-        mtrace("=== Démarrage de la désinscription par catégorie ===");
-        mtrace("Catégorie ID: {$categoryid}, Rôle ID: {$roleid}, Méthode: {$method}");
+        mtrace("start task - unenroll users from selected category ...");
+        mtrace("category ID: {$categoryid}, role ID: {$roleid}, method: {$method}");
 
         $subcats = \core_course_category::get($categoryid)->get_all_children_ids(true);
         $allcats = array_merge([$categoryid], $subcats);
@@ -67,11 +67,11 @@ class unenrol_category_task extends \core\task\adhoc_task {
             }
 
             if ($totalunenrolled > 0) {
-                mtrace("Cours '{$course->fullname}' (ID {$course->id}) : {$totalunenrolled} utilisateur(s) désinscrit(s).");
+                mtrace("course '{$course->fullname}' (ID {$course->id}) : {$totalunenrolled} user(s) unenrolled.");
             } else {
-                mtrace("Cours '{$course->fullname}' (ID {$course->id}) : aucun utilisateur désinscrit.");
+                mtrace("course '{$course->fullname}' (ID {$course->id}) : no users unenrolled.");
             }
         }
-        mtrace("=== Fin de la tâche de désinscription ===");
+        mtrace("end task - unenroll users from selected category ...");
     }
 }
